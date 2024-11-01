@@ -1,0 +1,212 @@
+/* Style Web */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", serif;
+    background: linear-gradient(rgb(180, 172, 172),rgba(0, 0, 255, 0.676));
+}
+
+/* Smoothing scroll */
+:root{
+  scroll-behavior:smooth ;
+}
+
+/* =========================== */
+
+/* Page First */
+/* Navigation Bar */
+nav {
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  border: 1.1px solid;
+  background: #8d8d9a;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 450;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Poppins", serif;
+  z-index: 1;
+}
+
+/* Logo */
+.logo a {
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Home-Produk-Contact */
+.navigation-first a {
+  color: black;
+  font-size: 15px;
+  padding: 30px;
+  text-decoration: none;
+}
+.navigation-first a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+/* Registration */
+.navigation-two a {
+  font-size: 20px;
+  border-radius: 5px;
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+}
+.navigation-two a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+/* Main content */
+/* image */
+.container-image {
+  height: 30vh;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+}
+.container-image img {
+  width: 100px;
+  height: 55px;
+  filter: drop-shadow( 3px 5px 10px rgb(48, 47, 47));
+}
+/* Article */
+.hero-text {
+  height: 60vh;
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+.hero-text h3 {
+  font-family: "Poppins", serif;
+  letter-spacing: 5px;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+.hero-text p{
+  text-align:center;
+  margin-bottom: 20px;
+}
+.next a{
+  color: white;
+  background: black;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 8px;
+}
+.next a:hover{
+  background: transparent;
+  border: 1px solid black;
+  color:black;
+  transition: 0.3s;
+}
+
+
+/* ==================================== */
+
+
+/* Page Two */
+#bahasa{
+  height: 100%;
+}
+/* Main Content two */
+/* Article */
+.container-text{
+  margin-top: 80px;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.container-text h3{
+  font-family: "Poppins", serif;
+  letter-spacing: 3px;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.container-text p{
+  text-align: center;
+}
+
+/* Program */
+.program{
+  width: 350px;
+  display: flex;
+  padding: 60px 100px;
+  gap: 50%;
+  text-align: center;
+}
+/* Python */
+.python img{
+  border: 1px solid;
+  box-shadow: 2px 2px 2px 2px rgb(53, 51, 51);
+}
+.python h3{
+  font-family: Arial;
+  padding-top: 20px;
+}
+.python p{
+  padding-top: 20px;
+  text-align: left;
+}
+/* Java */
+.java img{
+  border: 1px solid;
+  box-shadow: 2px 2px 2px 2px rgb(53, 51, 51);
+}
+.java h3{
+  font-family: Arial;
+  padding-top: 20px;
+}
+.java p{
+  padding-top: 20px;
+  text-align: left;
+}
+/* JavaScript */
+.javascript img{
+  width: 300px;
+  border: 1px solid;
+  box-shadow: 2px 2px 2px 2px rgb(53, 51, 51);
+}
+.javascript h3{
+  font-family: Arial;
+  padding-top: 20px;
+}
+.javascript p{
+  padding-top: 20px;
+  text-align: left;
+}
+
+
+
+/* ======================= */
+
+
+/* Page Three */
+#about{
+  height: 50vh;
+}
+/* Main Content Three */
+.nota h3{
+  margin-top: 10%;
+  font-family: "Poppins", serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.nota p{
+  text-align: center;
+}

@@ -1,0 +1,93 @@
+/* Style Web */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+      font-family: "Poppins", serif;
+  }
+  
+  /* Smoothing scroll */
+  :root{
+    scroll-behavior:smooth ;
+  }
+  
+  /* =========================== */
+  
+  /* Page First */
+  /* Navigation Bar */
+  nav {
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    border: 1.1px solid;
+    background: #8d8d9a;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 450;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: "Poppins", serif;
+    z-index: 1;
+  }
+  
+  /* Logo */
+  .logo a {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Home-Produk-Contact */
+  .navigation-first a {
+    color: black;
+    font-size: 15px;
+    padding: 30px;
+    text-decoration: none;
+  }
+  .navigation-first a:hover {
+    color: white;
+    transition: 0.3s;
+  }
+  
+  /* Registration */
+  .navigation-two a {
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+  }
+  .navigation-two a:hover {
+    color: white;
+    transition: 0.3s;
+  }
+
+  /* Main Content */
+  .container-contact{
+    height: 50vh;
+  }
+  .container-contact h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2em;
+    letter-spacing: 3px;
+  }
+  .container-contact ul{
+    padding: 30px 50px 30px;
+  }
+  /* Iframe */
+  .container-frame{
+    height: 80vh;
+  }
+  .container-frame h4{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
